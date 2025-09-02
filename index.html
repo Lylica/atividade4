@@ -19,6 +19,7 @@
     <!--Vídeo-->
     <section>
         <div class="video">
+            <h2>Video</h2>
             <video src="video.mp4" controls poster="capa-video.png" width="50%">
                 Seu navegador não suporta vídeo!
             </video>
@@ -28,6 +29,7 @@
     <!--Audio-->
     <section>
         <div class="audio">
+            <h2>Audios</h2>
             <audio controls>
                 <source src="parow.mp3" type="audio/mpeg"/>                
             </audio>
@@ -35,6 +37,24 @@
                 <source src="xuxa.ogg" type="audio/ogg"/>
             </audio>
             </div>
+    </section>
+
+    <!--Formulario-->
+    <section>
+        <h2>Formulario</h2>
+        <form>
+            <!--Nome-->
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+            <!--Email-->
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+            <!--Mensagem-->
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+            <!--Botao-->
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
 </body>
